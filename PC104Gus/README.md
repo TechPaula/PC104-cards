@@ -3,8 +3,7 @@
 This is just a PC104plus board for the picogus.
 All credit for this remains with the original picogus project and not me, I just rerouted the board to fit my PC104+ computer
 
-
-[![PicGUS Project](https://github.com/polpo/picogus)](https://github.com/polpo/picogus)
+[![PicoGUS Project](https://github.com/polpo/picogus)](https://github.com/polpo/picogus)
 
 ## License
 
