@@ -1,0 +1,16 @@
+.DS_Store
+*~
+*.swp
+*.swo
+*.zip
+*.obj
+*.o
+build/
+*.kicad_prl
+fp-info-cache
+.vscode
+sw/
+common/
+pgusinit/
+firmware.ld
+flash_firmware.h
