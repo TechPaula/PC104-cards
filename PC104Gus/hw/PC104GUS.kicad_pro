@@ -231,6 +231,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false,
@@ -678,8 +682,12 @@
   },
   "sheets": [
     [
-      "8fb4b197-630e-4faa-9892-8ecaeb71c13b",
+      "936c049a-bb9b-480b-8490-015340ce9414",
       "Root"
+    ],
+    [
+      "a896d472-9481-4031-a8c7-c282bd45e0f6",
+      "PicoGUS"
     ],
     [
       "9d2ec422-e50e-4bcf-9c81-7933040dc4f5",
