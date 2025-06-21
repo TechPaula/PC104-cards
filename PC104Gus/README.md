@@ -7,6 +7,8 @@ All credit for this remains with the original picogus project and not me, I just
 
 The PCI connector is not connected and is not needed, it is there so that should I get any PCI cards in the future I can use them on my system
 
+![Alt text](Images/TopSide.png?raw=true "TopSide of PCB")
+
 ## Updatex
 2025-06-21 - Board routed but NOT yet built/tested.
 
