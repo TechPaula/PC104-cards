@@ -9,7 +9,7 @@ The PCI connector is not connected and is not needed, it is there so that should
 
 ![Alt text](Images/TopSide.png?raw=true "TopSide of PCB")
 
-## Updatex
+## Update
 2025-06-21 - Board routed but NOT yet built/tested.
 
 
