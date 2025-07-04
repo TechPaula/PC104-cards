@@ -480,11 +480,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "373b0b07-0290-4d96-85ff-cf603fcf438d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/7352dca2-997e-4e60-b957-0095a5ed2fd9")
 		(sheetname "/")
 		(sheetfile "PC104GUS.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -599,6 +612,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17710"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "215e9411-c3dc-4eb6-9390-7abf4766e208")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -804,11 +830,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c649df0b-17d5-49e0-8e51-de6ebfdea02f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a896d472-9481-4031-a8c7-c282bd45e0f6/7d44f24d-da6e-4def-bfd9-8a08128aeacd")
 		(sheetname "/PicoGUS/")
 		(sheetfile "PicoGUS.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -1079,8 +1118,21 @@
 				)
 			)
 		)
+		(property "LCSC" "C402162"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ba6591e-8cbc-4846-9df6-b540d234ad35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SG-* SOT*")
-		(path "/a896d472-9481-4031-a8c7-c282bd45e0f6/355abf23-fd5b-4ecd-9a2c-63145cdd7cf9")
+		(path "/a896d472-9481-4031-a8c7-c282bd45e0f6/6727e2c1-12d2-4f8c-a1f6-bf35bde96605")
 		(sheetname "/PicoGUS/")
 		(sheetfile "PicoGUS.kicad_sch")
 		(attr smd)
@@ -1360,6 +1412,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebe9374b-d9e6-48ba-84a4-04576cfdb2e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a896d472-9481-4031-a8c7-c282bd45e0f6/9d2ec422-e50e-4bcf-9c81-7933040dc4f5/0ea67c3a-0f79-4792-bc8a-95d163c670bc")
 		(sheetname "/PicoGUS/PCM5100 audio/")
@@ -1562,11 +1627,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a5bb207-e66d-4a35-a280-efda4cbd6aa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/a896d472-9481-4031-a8c7-c282bd45e0f6/dcc3d6ce-8c68-4d6c-b9b2-859ec00cb441")
 		(sheetname "/PicoGUS/")
 		(sheetfile "PicoGUS.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 80.07)
@@ -2533,11 +2611,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c7f24e6-038f-4f3b-8fbf-c6c8fa1e1e74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/414a2941-8538-49b2-9bb2-3514d6aeddaf")
 		(sheetname "/")
 		(sheetfile "PC104GUS.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2 0)
@@ -2630,6 +2721,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "147f13b5-df5a-4ceb-a87f-007119a562f6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2835,6 +2939,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C28260"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6be46a3-87a5-442f-bd71-dd22cd9807fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a896d472-9481-4031-a8c7-c282bd45e0f6/9d2ec422-e50e-4bcf-9c81-7933040dc4f5/0b3cbc67-3899-4bb0-9191-554f9008a6c6")
 		(sheetname "/PicoGUS/PCM5100 audio/")
@@ -3032,6 +3149,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2b4c0a1-c61d-4e85-849d-ce495d4d8244")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3939,11 +4069,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91c83102-24fe-4230-b20b-cf7281f57afa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/d33df811-6092-408f-ba27-170fb0935456")
 		(sheetname "/")
 		(sheetfile "PC104GUS.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -4058,6 +4201,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17710"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "212c20d9-f0f6-4226-beb2-8c9e8ab230a0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4259,6 +4415,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edc83e7d-d0fe-4e6b-b16e-0b46b12d3f62")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4466,11 +4635,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ab06608-a4a2-498d-8f10-918865262b38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/43a614a7-b295-4859-88f5-72ef7805c123")
 		(sheetname "/")
 		(sheetfile "PC104GUS.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.06 1)
 			(end 1.06 59.06)
@@ -5378,7 +5560,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2905423"
+		(property "LCSC" "DNF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5394,7 +5576,7 @@
 		(path "/a896d472-9481-4031-a8c7-c282bd45e0f6/420c1bc2-ccdb-4320-8e64-356ed391cc95")
 		(sheetname "/PicoGUS/")
 		(sheetfile "PicoGUS.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -10.5 -25.5)
 			(end -10.5 -25.2)
@@ -7569,11 +7751,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b5ce31a-b4d3-4b1d-a564-f832226c9a82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/e3c77da8-a2fb-4807-a806-02cf349ece0f")
 		(sheetname "/")
 		(sheetfile "PC104GUS.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.06 1)
 			(end 1.06 59.06)
@@ -8698,11 +8893,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f796422-dedc-4cb3-ae31-8b4cc39fd1ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/df87b9e3-af4a-4dd3-a5c7-27cb9373da01")
 		(sheetname "/")
 		(sheetfile "PC104GUS.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2 0)
@@ -8799,11 +9007,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26ff34b0-936c-4f8f-968f-0d8b5c930021")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a896d472-9481-4031-a8c7-c282bd45e0f6/bd84dac9-95ce-4a75-8e0b-0e9c25be32a7")
 		(sheetname "/PicoGUS/")
 		(sheetfile "PicoGUS.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 3.87)
@@ -9798,6 +10019,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5b99713-f738-4673-b0a1-469ab49b471d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a896d472-9481-4031-a8c7-c282bd45e0f6/9d2ec422-e50e-4bcf-9c81-7933040dc4f5/4f83563d-e82c-4e33-a578-4c5248308873")
 		(sheetname "/PicoGUS/PCM5100 audio/")
@@ -10213,7 +10447,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C492426"
+		(property "LCSC" "DNF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10230,7 +10464,7 @@
 		(path "/a896d472-9481-4031-a8c7-c282bd45e0f6/6eb41fb3-b788-4205-94e5-202ceec2641b")
 		(sheetname "/PicoGUS/")
 		(sheetfile "PicoGUS.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -10893,11 +11127,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ceefe2f-4850-4b5a-8997-76a03a3ebbf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/8c8e317f-016c-4a3d-9cdc-9d07ff49962d")
 		(sheetname "/")
 		(sheetfile "PC104GUS.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -11016,7 +11263,7 @@
 				)
 			)
 		)
-		(property "LCSC" "DNP"
+		(property "LCSC" "DNF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11418,11 +11665,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "188a19b3-b90f-4dce-8358-724f5fdbe500")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/fa1bac50-9c5e-4992-bc4d-2a535c641aa9")
 		(sheetname "/")
 		(sheetfile "PC104GUS.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2 0)
@@ -11733,11 +11993,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "930ebdc2-fd88-4f11-873e-8d646a66d9a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a896d472-9481-4031-a8c7-c282bd45e0f6/1d8d7ed4-d61a-4077-9e35-dd2fcbc7bd38")
 		(sheetname "/PicoGUS/")
 		(sheetfile "PicoGUS.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.33 14.03)
 			(end 1.33 14.03)
@@ -12744,11 +13017,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41866e2e-0fd8-4882-85ba-634e10f0dfd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/ffc51ee9-63ee-4021-ac94-dde31b882784")
 		(sheetname "/")
 		(sheetfile "PC104GUS.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 49.59)
@@ -13449,7 +13735,7 @@
 				)
 			)
 		)
-		(property "LCSC" "DNP"
+		(property "LCSC" "DNF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14491,6 +14777,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C28260"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b1acc3a-14e2-4e84-b1fb-d77ba34951d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a896d472-9481-4031-a8c7-c282bd45e0f6/9d2ec422-e50e-4bcf-9c81-7933040dc4f5/1c122af6-8a16-4b74-9c99-2fee3c23dbe5")
 		(sheetname "/PicoGUS/PCM5100 audio/")
@@ -14688,6 +14987,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C377773"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1577cf7e-3c19-4970-b41a-c40f7b44e4ff")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14893,11 +15205,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82deb21a-599a-4619-a500-f9d6193131e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a896d472-9481-4031-a8c7-c282bd45e0f6/2b9d9f72-a86e-436e-b3f1-c20b0b9295d3")
 		(sheetname "/PicoGUS/")
 		(sheetfile "PicoGUS.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 3.87)
@@ -15360,6 +15685,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C131154"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1cc9d9a-a7f8-4426-97cb-00ae2a5a3418")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TSSOP*4.4x6.5mm*P0.65mm*")
 		(path "/a896d472-9481-4031-a8c7-c282bd45e0f6/9d2ec422-e50e-4bcf-9c81-7933040dc4f5/89218800-b0b2-4ced-9342-586a822b2ee7")
 		(sheetname "/PicoGUS/PCM5100 audio/")
@@ -15787,11 +16125,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0ba3cba-e3b8-47a2-8736-e9ead9024989")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/78259a4c-015f-4eee-9322-90637f100c66")
 		(sheetname "/")
 		(sheetfile "PC104GUS.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2 0)
@@ -15888,11 +16239,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d09ebc4-3b64-4208-952e-d6c9ab169b81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ba89d0a2-8a5f-489d-9461-4c87677d57c6")
 		(sheetname "/")
 		(sheetfile "PC104GUS.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -16083,6 +16447,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C526338"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4baf02ce-be98-4140-a8f7-cbcb4e7ff25b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16436,6 +16813,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C377773"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da901035-c9dc-42a2-8f03-b0007902e39f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18199,11 +18589,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9612772-4fd9-45e2-af12-2cc9e8e484e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/dd71f6e8-29e5-401a-93c2-745b42e542a2")
 		(sheetname "/")
 		(sheetfile "PC104GUS.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -18612,6 +19015,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5510"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65f98a04-153e-4508-bb07-457322812682")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19183,11 +19599,24 @@
 				)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8245a116-7682-4f1f-9a84-db7e9f3e3f64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/858aee6d-58b9-48ab-8d5b-8c8b4730f836")
 		(sheetname "/")
 		(sheetfile "PC104GUS.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -19386,12 +19815,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+		(property "LCSC" "DNF"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "96cacff9-72aa-4ab7-9fad-e16547550b85")
+			(uuid "67d580f9-b748-44d8-b341-1efabfe58e97")
 			(effects
 				(font
 					(size 1 1)
@@ -19403,7 +19832,7 @@
 		(path "/751da207-19e3-4fc4-88bd-24af6812288a")
 		(sheetname "/")
 		(sheetfile "PC104GUS.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_poly
 			(pts
 				(xy 2.512263 1.378943) (xy 2.593732 1.330793) (xy 2.65773 1.259254) (xy 2.675515 1.227567) (xy 2.706482 1.12861)

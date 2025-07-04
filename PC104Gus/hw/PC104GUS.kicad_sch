@@ -6415,9 +6415,9 @@
 		(at 251.46 123.19 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "414a2941-8538-49b2-9bb2-3514d6aeddaf")
 		(property "Reference" "H9"
@@ -6465,6 +6465,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 251.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PC104GUS"
 				(path "/936c049a-bb9b-480b-8490-015340ce9414"
@@ -6481,7 +6490,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "43a614a7-b295-4859-88f5-72ef7805c123")
 		(property "Reference" "J9"
@@ -6519,6 +6528,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x30, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 191.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNF"
 			(at 191.77 91.44 0)
 			(effects
 				(font
@@ -6721,9 +6739,9 @@
 		(at 251.46 57.15 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7352dca2-997e-4e60-b957-0095a5ed2fd9")
 		(property "Reference" "H3"
@@ -6771,6 +6789,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 251.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f1c3365-2dbe-4caf-912c-98e0a0379c8d")
 		)
@@ -6787,10 +6814,10 @@
 		(lib_id "Graphic:SYM_Flash_Large")
 		(at 260.35 147.32 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "751da207-19e3-4fc4-88bd-24af6812288a")
 		(property "Reference" "FOX1"
@@ -6838,8 +6865,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 260.35 147.32 0)
+		(property "LCSC" "DNF"
+			(at 260.35 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,9 +6888,9 @@
 		(at 251.46 113.03 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "78259a4c-015f-4eee-9322-90637f100c66")
 		(property "Reference" "H7"
@@ -6903,6 +6930,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNF"
 			(at 251.46 113.03 0)
 			(effects
 				(font
@@ -6993,7 +7029,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "858aee6d-58b9-48ab-8d5b-8c8b4730f836")
 		(property "Reference" "R9"
 			(at 87.63 104.14 90)
@@ -7038,6 +7074,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 83.82 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ea777cb0-7b9d-4a11-b327-64fcd1d08483")
 		)
@@ -7058,9 +7103,9 @@
 		(at 251.46 71.12 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8c8e317f-016c-4a3d-9cdc-9d07ff49962d")
 		(property "Reference" "H4"
@@ -7100,6 +7145,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 251.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNF"
 			(at 251.46 71.12 0)
 			(effects
 				(font
@@ -7192,7 +7246,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ba89d0a2-8a5f-489d-9461-4c87677d57c6")
 		(property "Reference" "R10"
 			(at 80.01 111.76 90)
@@ -7237,6 +7291,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 83.82 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "450e5296-84f3-4936-b336-d0257eca9117")
 		)
@@ -7257,9 +7320,9 @@
 		(at 251.46 99.06 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d33df811-6092-408f-ba27-170fb0935456")
 		(property "Reference" "H6"
@@ -7299,6 +7362,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 251.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNF"
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -7390,9 +7462,9 @@
 		(at 251.46 85.09 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dd71f6e8-29e5-401a-93c2-745b42e542a2")
 		(property "Reference" "H5"
@@ -7440,6 +7512,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 251.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87e24a5f-bd01-4992-9a63-56dd7cceba28")
 		)
@@ -7457,9 +7538,9 @@
 		(at 251.46 128.27 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "df87b9e3-af4a-4dd3-a5c7-27cb9373da01")
 		(property "Reference" "H10"
@@ -7507,6 +7588,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PC104GUS"
 				(path "/936c049a-bb9b-480b-8490-015340ce9414"
@@ -7524,7 +7614,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e3c77da8-a2fb-4807-a806-02cf349ece0f")
 		(property "Reference" "J10"
@@ -7562,6 +7652,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x30, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 223.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNF"
 			(at 223.52 91.44 0)
 			(effects
 				(font
@@ -7764,9 +7863,9 @@
 		(at 251.46 118.11 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fa1bac50-9c5e-4992-bc4d-2a535c641aa9")
 		(property "Reference" "H8"
@@ -7814,6 +7913,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "DNF"
+			(at 251.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PC104GUS"
 				(path "/936c049a-bb9b-480b-8490-015340ce9414"
@@ -7830,7 +7938,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ffc51ee9-63ee-4021-ac94-dde31b882784")
 		(property "Reference" "J2"
@@ -7868,6 +7976,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNF"
 			(at 69.85 83.82 0)
 			(effects
 				(font
