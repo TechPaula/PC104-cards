@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D2, D3, D4",0603,4,LED,
+FOX1,Fox_avatar_18mm,1,SYM_Flash_Large,
+J1,PinSocket_2x32_P2.54mm_Vertical,1,Conn_02x32_Odd_Even,
+J2,PinSocket_2x20_P2.54mm_Vertical,1,Conn_02x20_Odd_Even,
+"J3A1, J3C1",PinSocket_2x30_P2.00mm_Vertical,2,Conn_02x30_Row_Letter_First,
+J4,PinSocket_1x20_P2.54mm_Vertical,1,GROUND,
+POWER1,PinSocket_1x20_P2.54mm_Vertical,1,Conn_01x20,
+"R1, R3",0603,2,2K2,
+"R2, R4",0603,2,4K7,
