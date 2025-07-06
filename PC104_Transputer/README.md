@@ -16,3 +16,4 @@ The PCI connector is not connected and is not needed, it is there so that should
 
 ## License
 There isn't one, if you want to build it or adapt it, go for it.
+I offer no warranty, nor will I accept any responsiblity for damage to you or your equipment
