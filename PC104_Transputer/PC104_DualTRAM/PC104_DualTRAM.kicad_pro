@@ -48,17 +48,16 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|136524000|107492800|fc564c66-6b96-41c5-94e3-1141dd4ecd27|66149560-cb12-4a1a-b05f-e51abfe0fa51|F.Cu",
+          ""
+        ]
       ],
-      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -88,7 +87,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -100,12 +99,12 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -186,9 +185,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -215,12 +212,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -463,7 +455,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PC104_Transputer.kicad_pro",
+    "filename": "PC104_DualTRAM.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -487,14 +479,14 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.25,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
+        "track_width": 0.5,
         "via_diameter": 0.8,
-        "via_drill": 0.4
+        "via_drill": 0.5
       }
     ],
     "meta": {
@@ -517,7 +509,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../../../home/paula/Windoze/PC104_Transputer.step",
+      "step": "../../../../../../../home/paula/Windoze/PC104_DualTRAM.step",
       "svg": "",
       "vrml": ""
     },
@@ -638,11 +630,11 @@
   },
   "sheets": [
     [
-      "494ecc26-d902-44b2-9310-3be5b84ce353",
+      "e3d057e7-2518-4027-a3a8-1f93c45d21ce",
       "Root"
     ],
     [
-      "e3bff780-099f-4628-9990-0e7d51e226e0",
+      "57a353dc-5000-4d0d-b811-96ae591f9d87",
       "PC104Connectors"
     ]
   ],
