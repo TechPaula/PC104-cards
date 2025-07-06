@@ -10618,6 +10618,17 @@
 				(xyz -0 -0 -0)
 			)
 		)
+		(model "/media/paula/Data/Repositories/PC104-cards/PC104_Transputer/TRAM_MOCKUP/TRAM_MOCKUP.step"
+			(offset
+				(xyz -136 87.5 9.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
 		(layer "F.Cu")
