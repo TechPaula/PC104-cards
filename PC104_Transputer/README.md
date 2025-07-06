@@ -9,6 +9,7 @@ The PCI connector is not connected and is not needed, it is there so that should
 
 
 ## Update
+2025-07-06 - Added TRAM model
 2025-07-05 - Board routed but NOT yet built/tested, the code for the CPLD is not not written.
 
 
