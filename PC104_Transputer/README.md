@@ -11,7 +11,7 @@ The PCI connector is not connected and is not needed, it is there so that should
 ## Updates
 2025-07-19 - OMG, so much work... CPLD files updated and fixed a couple of errors. I can now write and read from 0x150 to 0x153 as expected. I can now also write to 0x160 & 0x161 as expected and get the behaviours expected. But when you read from 0x160 you got the wrong value and from then on when you read from 0x153 (output status) returns 0, so the output has not been sent/acknowledged by the TRAM.
 
-###Some useful things I've discovered along the way;
+### Some useful things I've discovered along the way;
 * write a 1 to 0x160 Asserts reset, writing a 0 deasserts it.
 * Write a 1 to 0x161 to asset Analyse, writing a - deasserts it
 * Write a 0 to 0x152 to clear INPUT interrupt enable (unless you plan to use interrupts)
