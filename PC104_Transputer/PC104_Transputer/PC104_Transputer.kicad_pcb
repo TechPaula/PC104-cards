@@ -1998,7 +1998,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*7.5x12.8mm*P1.27mm* *SSOP*5.3x7.2mm*P0.65mm*")
-		(path "/f7b51126-b55f-4616-895e-c430a46ac8af")
+		(path "/b3ff2187-d2f9-442b-bacb-1c380675293d")
 		(sheetname "/")
 		(sheetfile "PC104_Transputer.kicad_sch")
 		(attr smd)
@@ -3084,7 +3084,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF 10V"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "c459e21b-2cd5-4e40-a78d-109bb7cfd718")
@@ -7080,6 +7080,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "/home/paula/Dropbox/KiCAD/LIB/3D/10 pin female idc.step"
+			(offset
+				(xyz 1.25 -5 11)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
 			)
 		)
 	)

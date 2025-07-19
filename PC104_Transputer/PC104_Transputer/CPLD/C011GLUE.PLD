@@ -6,7 +6,7 @@ Designer PaulaMaddox;
 Company  ;
 Assembly ;
 Location ;
-Device	  f1502ispplcc44;
+Device	f1502ispplcc44;
 
 /*****************************************************/
 /* decode an address and set nCS for device          */
@@ -28,35 +28,26 @@ pin 17 = !NotIOW;
 pin 18 = !NotIOR;
 pin 28 = ADDR_SEL;
 
-pin 41 = PCLK;
-
 pin 40 = !NotPCError;
-
+pin 41 = PCLK;
 
 
 /* Outputs */
 pin 19 = D0;
 pin 39 = !NotPCAnalyse;
-pin 37 = !NotPCReset;
+pin 37 = NotPCReset;
 pin 36 = C011Reset;
 pin 34 = !NotWrite;
 pin 33 = !NotCS;
 pin 11 = !NotSys;			/* No connect pin */
 pin 24 = !NotLadp;			/* No connect pin */
-pin 25 = !NotStatWr;			/* No connect pin */
+pin 25 = !NotStatWr;		/* No connect pin */
 
-pin 21 = DRQ;
+pin 20 = ReadSys;			/* Temporary test pin */
+
+PINNODE = WriteSys;
 
 /* Logic Equations */
-
-	/* writing to x150 or x300 */
-				/* 0x150 */							/* 0x300 */
-	/* nCS = ( (A4 & !A5 & A6 & !A7 & A8 & !A9 & !ADDR_SEL) # (!A4 & !A5 & !A6 & !A7 & A8 & A9 & ADDR_SEL) ) & AEN ; */
-
-/* DRQ = PCLK; */
-
-	/* From the book */
-
 
 FIELD IBMAddr = [A9..A4];
 FIELD Register = [A1..A0];
@@ -64,7 +55,7 @@ FIELD Outputs = [NotPCReset, NotPCAnalyse, NotStatWr];
 
 Outputs.ar = 'b'0;
 Outputs.sp = 'b'0;
-Outputs.ck = PCLK;
+Outputs.ck = PCLK;		/* CPLD needs this to know which clocks to use */
 
 	/* Address decode */
 NotLadp = NotAEN & IBMAddr:[150];
@@ -81,11 +72,11 @@ WriteAnalyse	= WriteSys & Register:[1];
 	/* C011, 245 Control */
 NotStatWr.d 	= NotIOW;
 NotCS 		= WriteLink & NotStatWr # ReadLink;
-NotWrite		= WriteLink & NotStatWr & NotLadp;
-C011Reset		= NotPCReset;
+NotWrite		= WriteLink # NotStatWr & NotLadp;
+C011Reset		= NotPCReset; 
 
 	/* Reset, Analyse, Error */
 NotPCReset.d  		= D0 & WriteReset # NotPCReset & !WriteReset;
 NotPCAnalyse.d  	= D0 & WriteAnalyse # NotPCAnalyse & !WriteAnalyse;
-D0				= !NotPCError;
+D0				= NotPCError;
 D0.oe 			= ReadSys;
