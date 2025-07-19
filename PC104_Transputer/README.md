@@ -13,7 +13,7 @@ The PCI connector is not connected and is not needed, it is there so that should
 
 ### Some useful things I've discovered along the way;
 * write a 1 to 0x160 Asserts reset, writing a 0 deasserts it.
-* Write a 1 to 0x161 to asset Analyse, writing a - deasserts it
+* Write a 1 to 0x161 to asset Analyse, writing a 0 deasserts it
 * Write a 0 to 0x152 to clear INPUT interrupt enable (unless you plan to use interrupts)
 * Write a 0 to 0x152 to clear OUTPUT interrupt enable (unless you plan to use interrupts)
 * READ from 0x152 to get the input status (if bit0 is 0 then there is no Data waiting)
