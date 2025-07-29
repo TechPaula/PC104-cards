@@ -34,7 +34,7 @@ pin 41 = PCLK;
 
 /* Outputs */
 pin 19 = D0;
-pin 39 = !NotPCAnalyse;
+pin 39 = NotPCAnalyse;
 pin 37 = NotPCReset;
 pin 36 = C011Reset;
 pin 34 = !NotWrite;
