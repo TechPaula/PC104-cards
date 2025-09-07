@@ -1,0 +1,127 @@
+ Name     MAM_GLUE;
+PartNo   ;
+Date     2025;
+Revision ;
+Designer PaulaMaddox;
+Company  ;
+Assembly ;
+Location ;
+Device	f1502ispplcc44;
+
+/*****************************************************/
+/* decode an address and set nCS for device          */
+/* Also set Write and Read lines only when selected  */
+/*****************************************************/
+/* 
+/* 0x150 + R = read data from C011 buffer received from TRAM	*/
+/* 0x150 + W = INVALID						*/
+/* 0x151 + R = INVALID						*/
+/* 0x151 + W = WRITE data to C011 buffer to forward to TRAM	*/
+/* 0x152 + R = Read C011 input buffer status			*/
+/* 0x152 + W = Write Input status (used to disable IRQ)	*/
+/* 0x153 + R = Read C011 output buffer status			*/
+/* 0x153 + W = Write output status (used to disable IRQ)      */
+/*									*/
+/* 0x160 + R = INVALID						*/
+/* 0x160 + W = set/unset C011 & TRAM reset lines		*/
+/* 0x161 + R = INVALID						*/
+/* 0x161 + W = set/unset analyse register				*/
+/* 0x162 + R = Get TRAM ERROR					*/ 
+/* 0x162 + W = INVALID						*/ 
+/* 0x163 + R = INVALID						*/ 
+/* 0x163 + W = INVALID						*/ 
+/*									*/
+/* 2025-08-26 New version with extra Address pins and new PCB	*/
+/*									*/
+/*									*/
+/**************************************************************/
+
+
+/* Inputs */
+pin 24 = A0;
+pin 21 = A1;
+pin 20 = A2;
+pin 25 = A3;
+pin 19 = A4;
+pin 18 = A5;
+pin 17 = A6;
+pin 16 = A7;
+pin 14 = A8;
+pin 12 = A9;
+pin 9  = A10;
+pin 8  = A11;
+pin 6  = A12;
+pin 11 = A13;
+pin 5  = A14;
+pin 4  = A15;
+
+pin 43 = !nAEN;
+pin 1  = !nIOW;
+pin 44 = !nIOR;
+
+pin 28 = !TRAMnError;
+pin 41 = PCLK;
+
+/* input/outputs */
+pin 36 = D0;
+
+/* Outputs */
+pin 27 = TRAMAnalyse;
+pin 26 = TRAMReset;
+pin 33 = C011Reset;
+pin 29 = !C011RnW;		/* was 31, I cocked up on the schematic */
+pin 31 = !C011nCS;		/* was 29, I cocked up on the schematic */
+pin 34 = TESTPOINT;
+
+/* PINNODES */
+PINNODE = !LINKADAP;
+PINNODE = !TRAMCONT;
+PINNODE = !NotStatWr;		
+PINNODE = WriteSys;
+PINNODE = ReadSys;
+PINNODE = WriteLink;
+PINNODE = WriteReset;
+PINNODE = WriteAnalyse;
+
+
+/* Address Decode */
+LINKADAP = nAEN & !A9 & A8 & !A7 & A6 & !A5 &  A4;		/* 0x150 */
+TRAMCONT = nAEN & !A9 & A8 & !A7 & A6 &  A5 & !A4;		/* 0x160 */
+
+
+/* Logic Equations */
+FIELD Register = [A1..A0];
+FIELD Outputs = [TRAMReset, TRAMAnalyse, NotStatWr];
+
+Outputs.ar = 'b'0;
+Outputs.sp = 'b'0;
+Outputs.ck = PCLK;		/* CPLD needs this to know which clocks to use */
+	
+	/* Abbreviations */
+ReadSys 	= nIOR & TRAMCONT;
+WriteSys	= nIOW & TRAMCONT;
+ReadLink	= nIOR & LINKADAP;
+WriteLink 	= nIOW & LINKADAP;
+WriteReset	= WriteSys & Register:[0];
+WriteAnalyse	= WriteSys & Register:[1];
+
+	/* C011, 245 Control */
+NotStatWr.d 	= nIOW;
+C011nCS 	= WriteLink & NotStatWr # ReadLink;
+C011RnW	= WriteLink # NotStatWr & LINKADAP;
+C011Reset	= TRAMReset; 
+
+
+
+	/* Reset, Analyse, Error */
+TRAMReset.d  	= D0 & WriteReset # TRAMReset & !WriteReset;
+TRAMAnalyse.d	= D0 & WriteAnalyse # TRAMAnalyse & !WriteAnalyse;
+D0		= TRAMnError;
+D0.oe 		= ReadSys;
+
+	/* TEST POINT */
+	/* LINKADAP seems to work */
+	/* TRAMCONT seems to work */
+	/* WriteReset seems to work */
+	/* WriteAnalyse seems to work */
+TESTPOINT = LINKADAP ;
