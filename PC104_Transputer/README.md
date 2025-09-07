@@ -5,10 +5,12 @@ This is going to form the basis of a PC104 stack of transputers.
 
 The PCI connector is not connected and is not needed, it is there so that should I get any PCI cards in the future I can use them on my system
 
-![Alt text](Images/TransputerISALinkCard.jpg?raw=true "Interface and single TRAM PCB, TopSide of PCB")
-![Alt text](Images/DualTRAM.png?raw=true "Dual TRAM PCB, TopSide of PCB")
+TLDR; Currently none of these are proven beyond loopback tests
 
 ## Updates
+
+2025-09-07 - Well the previous card had some issues, mostly around the address decoding as far as I can tell, so I made a new card with just the C011 on and added more of the ISA lines to the CPLD. This now behaves with both of my PC104 computers (the previous one would cause one of them to fail to boot). However all 4 of my TRAMs now seem to have stopped working :( The C011 link card does at least now perform loopback tests perfectly. The other thing I've done is cut the track from the ISA 14.3MHz clock and used the 8MHz bus clock. I need to update the schematics and PCB 
+
 2025-07-19 - OMG, so much work... CPLD files updated and fixed a couple of errors. I can now write and read from 0x150 to 0x153 as expected. I can now also write to 0x160 & 0x161 as expected and get the behaviours expected. But when you read from 0x160 you got the wrong value and from then on when you read from 0x153 (output status) returns 0, so the output has not been sent/acknowledged by the TRAM.
 
 ### Some useful things I've discovered along the way;
@@ -32,6 +34,8 @@ The PCI connector is not connected and is not needed, it is there so that should
 
 2025-07-05 - Board routed but NOT yet built/tested, the code for the CPLD is not not written.
 
+![Alt text](Images/TransputerISALinkCard.jpg?raw=true "Interface and single TRAM PCB, TopSide of PCB")
+![Alt text](Images/DualTRAM.png?raw=true "Dual TRAM PCB, TopSide of PCB")
 
 ## License
 There isn't one, if you want to build it or adapt it, go for it.
