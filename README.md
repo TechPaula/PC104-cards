@@ -1,4 +1,5 @@
-# PC104-cards
+# GITHUB PROJECT NOW DEAD
+I've now moved away from Micros**t and it's AI slop.
+Fine this project here - (https://codeberg.org/TechPaula/)
 
-This is a place I will be putting various PCBs to go ontop of my PC104+ minicomputer.
-No warranty for anything here, I add stuff as/when I feel like it and I can't promise what is here works.
+
